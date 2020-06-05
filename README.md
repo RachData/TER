@@ -26,11 +26,8 @@ chercher une politique optimale de seuil. On pourra réfléchir à l’utilisati
 workflow scientifique ou à des tables dans une BD accessibles par R.
 4. Présenter graphiquement les compromis entre performance et énergie.
 
-# Manuel Utilisateur
-
-Cette application possède plusieurs fonctionnalités à savoir:
-
-    
+# Manuel Technique
+   
 Le code lancgener.c possède plusieurs fonctionnalités à savoir:
 
     excecute 03 programmes respectivement generMarkov, gthLD, rewardComponentMit modele Mitrani avec les 
@@ -41,11 +38,10 @@ Le code lancgener.c possède plusieurs fonctionnalités à savoir:
     genere un fichier nommé fichierReward qui contient tout les resultats des differents fichiers Matrice.resultats 
     generer par le programme rewardComponentMit.
     
-# Manuel Technique
 
-Il faut que les programmes generMarkov, gthLD, rewardComponentMit du modele Mitrani et lancgener soit dans le meme dossier.
-Le programme lancegener execute gernerMarkov avec tout les couples possibles entre 1 et Buffersize du programme generMarkov.
-Alors une fois modifier dans generMarkov il faut aussi modifier la valeur de la variable globale MaxU dans le progragramme lancgener.
+Pour le fonctionement de lancgener Il faut que les programmes generMarkov, gthLD, rewardComponentMit du modele Mitrani et 
+lancgener soit dans le meme dossier. Le programme lancegener execute gernerMarkov avec tout les couples possibles entre 1 
+et Buffersize du programme generMarkov. Alors une fois modifier dans generMarkov il faut aussi modifier la valeur de la variable globale MaxU dans le progragramme lancgener.
 
 # Compilation et execution du projet
 
