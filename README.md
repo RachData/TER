@@ -30,17 +30,17 @@ workflow scientifique ou à des tables dans une BD accessibles par R.
    
 Le code lancgener.c possède plusieurs fonctionnalités à savoir:
 
-    excecute 03 programmes respectivement generMarkov, gthLD, rewardComponentMit modele Mitrani avec les 
+    1) excecute 03 programmes respectivement generMarkov, gthLD, rewardComponentMit modele Mitrani avec les 
     arguments necessaire pour chaque programme.
 
-    genere un fichier nommé fichieUD qui contient toutes les valeurs U D utilisées par les progragrames
+    2) genere un fichier nommé fichieUD qui contient toutes les valeurs U D utilisées par les progragrames
 
-    genere un fichier nommé fichierReward qui contient tout les resultats des differents fichiers Matrice.resultats 
+    3) genere un fichier nommé fichierReward qui contient tout les resultats des differents fichiers Matrice.resultats 
     generer par le programme rewardComponentMit.
     
 
-Pour le fonctionement de lancgener Il faut que les programmes generMarkov, gthLD, rewardComponentMit du modele Mitrani et 
-lancgener soit dans le meme dossier. Le programme lancegener execute gernerMarkov avec tout les couples possibles entre 1 
+Pour le fonctionnement de lancgener Il faut que les programmes generMarkov, gthLD, rewardComponentMit du modèle Mitrani et 
+lancgener soit dans le meme dossier. Le programme lancegener exécute gernerMarkov avec tous les couples possibles entre 1 
 et Buffersize du programme generMarkov. Alors une fois modifier dans generMarkov il faut aussi modifier la valeur de la variable globale MaxU dans le progragramme lancgener.
 
 # Compilation et execution du projet
