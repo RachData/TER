@@ -45,7 +45,11 @@ Le code lancgener.c possède plusieurs fonctionnalités à savoir:
 
 Il faut que les programmes generMarkov, gthLD, rewardComponentMit du modele Mitrani et lancgener soit dans le meme dossier.
 Le programme lancegener execute gernerMarkov avec tout les couples possibles entre 1 et Buffersize . Alors une fois Modifier
-dans generMarkov il faut aussi modifier la valeur de la variable globale MaxU dans le progragramme lancgener
+dans generMarkov il faut aussi modifier la valeur de la variable globale MaxU dans le progragramme lancgener.
+
+# Reference au modele 
+Isi Mitrani. Service center trade-offs between customer impatience and power consumption.
+Elsevier Performance Evaluation (2011) 68 : 1222-1231, July 2011.
 
 Compilation et execution du projet
 
